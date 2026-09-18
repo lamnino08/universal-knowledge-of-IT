@@ -1,5 +1,6 @@
 [
   {
+<<<<<<< HEAD
     "id": "ak-architecture-host-social-connection-realtime-interaction-3-phase-model-roadmap",
     "title": "Host Social Connection & Realtime Interaction 3-Phase Model Roadmap",
     "filePath": "docs/agent-knowledge/architecture/host-social-connection-realtime-interaction-3-phase-model-roadmap.md",
@@ -76,5 +77,59 @@
     ],
     "description": "Khi số lượng bài đăng bàn chơi ghép kèo (Host Sessions) trong database tăng lên hàng nghìn bản ghi, việc quét toàn bộ database để chấm điểm và gợi ý sẽ gây nghẽ",
     "scopePaths": []
+  },
+  {
+    "id": "ak-troubleshooting-fix-socket-handshake-token-expired-bug",
+    "title": "Fix Socket Handshake Token Expired Bug",
+    "filePath": "docs/agent-knowledge/troubleshooting/fix-socket-handshake-token-expired-bug.md",
+    "category": "agent-knowledge/troubleshooting",
+    "searchKeys": [
+      "fix",
+      "socket",
+      "handshake",
+      "token",
+      "expired",
+      "bug",
+      "socket",
+      "handshake",
+      "auth-token",
+      "reconnect-loop",
+      "troubleshooting",
+      "learned-pattern"
+    ],
+    "description": "Socket client reconnect loop occurs when auth cookie token is expired during WebSocket upgrade handshake.",
+    "scopePaths": [
+      "workspace/back-end/src/socket/SocketServer.ts"
+    ]
+  },
+  {
+    "id": "ak-troubleshooting-fix-subdomain-localhost-auth-cookie-sharing-redirect-loop",
+    "title": "Fix Subdomain Localhost Auth Cookie Sharing & Redirect Loop",
+    "filePath": "docs/agent-knowledge/troubleshooting/fix-subdomain-localhost-auth-cookie-sharing-redirect-loop.md",
+    "category": "agent-knowledge/troubleshooting",
+    "searchKeys": [
+      "fix",
+      "subdomain",
+      "localhost",
+      "auth",
+      "cookie",
+      "sharing",
+      "redirect",
+      "loop",
+      "auth",
+      "cookies",
+      "subdomain",
+      "localhost",
+      "redirect-loop",
+      "sso",
+      "troubleshooting",
+      "learned-pattern"
+    ],
+    "description": "When accessing movie.localhost:4000, clicking login causes an infinite reload loop back to movie.localhost:4000 instead of displaying the sign-in form or recogn",
+    "scopePaths": [
+      "workspace/web/actions/user/user.action.ts",
+      "workspace/web/lib/auth-options.ts",
+      "workspace/web/constant/permission.tsx"
+    ]
   }
 ]
