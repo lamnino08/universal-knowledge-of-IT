@@ -1,0 +1,33 @@
+[
+  {
+    "id": "ak-architecture-host-social-connection-realtime-interaction-3-phase-model-roadmap",
+    "title": "Host Social Connection & Realtime Interaction 3-Phase Model Roadmap",
+    "filePath": "docs/agent-knowledge/architecture/host-social-connection-realtime-interaction-3-phase-model-roadmap.md",
+    "category": "agent-knowledge/architecture",
+    "searchKeys": [
+      "host",
+      "social",
+      "connection",
+      "realtime",
+      "interaction",
+      "3",
+      "phase",
+      "model",
+      "roadmap",
+      "host",
+      "social-connection",
+      "websocket",
+      "chat",
+      "qna",
+      "karma-endorsement",
+      "roadmap",
+      "architecture",
+      "learned-pattern"
+    ],
+    "description": "Thiết kế cơ chế giao tiếp và kết nối xã hội (Social Connection) tối ưu cho các buổi Host Session (Boardgame, Badminton) thay vì nhúng khung bình luận tĩnh không",
+    "scopePaths": [
+      "docs/frontend/features/host/host_social_connection_roadmap.md",
+      "workspace/web/components/host/"
+    ]
+  }
+]
