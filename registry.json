@@ -29,5 +29,29 @@
       "docs/frontend/features/host/host_social_connection_roadmap.md",
       "workspace/web/components/host/"
     ]
+  },
+  {
+    "id": "ak-conventions-i18n-localization-playful-tone-of-voice-convention",
+    "title": "i18n Localization & Playful Tone of Voice Convention",
+    "filePath": "docs/agent-knowledge/conventions/i18n-localization-playful-tone-of-voice-convention.md",
+    "category": "agent-knowledge/conventions",
+    "searchKeys": [
+      "i18n",
+      "localization",
+      "playful",
+      "tone",
+      "of",
+      "voice",
+      "convention",
+      "i18n",
+      "localization",
+      "tone-of-voice",
+      "ux-writing",
+      "conventions",
+      "conventions",
+      "learned-pattern"
+    ],
+    "description": "Các thông báo, email và nhãn giao diện trước đây bị khô khan, dịch máy cứng nhắc hoặc hiển thị raw key khi gửi ra ngoài màn hình.",
+    "scopePaths": []
   }
 ]
