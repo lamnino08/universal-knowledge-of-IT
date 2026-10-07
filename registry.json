@@ -1,6 +1,5 @@
 [
   {
-<<<<<<< HEAD
     "id": "ak-architecture-host-social-connection-realtime-interaction-3-phase-model-roadmap",
     "title": "Host Social Connection & Realtime Interaction 3-Phase Model Roadmap",
     "filePath": "docs/agent-knowledge/architecture/host-social-connection-realtime-interaction-3-phase-model-roadmap.md",
@@ -130,6 +129,60 @@
       "workspace/web/actions/user/user.action.ts",
       "workspace/web/lib/auth-options.ts",
       "workspace/web/constant/permission.tsx"
+    ]
+  },
+  {
+    "id": "ak-architecture-auth-gate-progressive-disclosure-architecture-for-private-vs-discovery-pages",
+    "title": "Auth Gate & Progressive Disclosure Architecture for Private vs Discovery Pages",
+    "filePath": "docs/agent-knowledge/architecture/auth-gate-progressive-disclosure-architecture-for-private-vs-discovery-pages.md",
+    "category": "agent-knowledge/architecture",
+    "searchKeys": [
+      "auth",
+      "gate",
+      "progressive",
+      "disclosure",
+      "architecture",
+      "for",
+      "private",
+      "vs",
+      "discovery",
+      "pages",
+      "architecture",
+      "learned-pattern"
+    ],
+    "description": "Deciding between blocking whole pages with Auth Gate vs keeping pages public with contextual modal prompts, while avoiding false affordances on settings pages.",
+    "scopePaths": []
+  },
+  {
+    "id": "ak-architecture-asset-abstraction-storage-layer-with-telegram-cloud-checksum-deduplication",
+    "title": "Asset Abstraction Storage Layer with Telegram Cloud & Checksum Deduplication",
+    "filePath": "docs/agent-knowledge/architecture/asset-abstraction-storage-layer-with-telegram-cloud-checksum-deduplication.md",
+    "category": "agent-knowledge/architecture",
+    "searchKeys": [
+      "asset",
+      "abstraction",
+      "storage",
+      "layer",
+      "with",
+      "telegram",
+      "cloud",
+      "checksum",
+      "deduplication",
+      "storage",
+      "asset-abstraction",
+      "telegram",
+      "media",
+      "deduplication",
+      "architecture",
+      "learned-pattern"
+    ],
+    "description": "Quản lý lưu trữ tài nguyên số tập trung, chống trùng lặp dữ liệu (Deduplication) và độc lập hoàn toàn giữa CSDL nghiệp vụ với hạ tầng Telegram Cloud Storage.",
+    "scopePaths": [
+      "workspace/packages/shared/interface/storage/IMediaAsset.ts",
+      "workspace/back-end/src/models/common/MediaAssetModel.ts",
+      "workspace/back-end/src/services/infrastructure/TelegramStorage.ts",
+      "workspace/back-end/src/services/common/UploadService.ts",
+      "workspace/back-end/src/controllers/media/MediaController.ts"
     ]
   }
 ]
