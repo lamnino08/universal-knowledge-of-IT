@@ -53,5 +53,28 @@
     ],
     "description": "Các thông báo, email và nhãn giao diện trước đây bị khô khan, dịch máy cứng nhắc hoặc hiển thị raw key khi gửi ra ngoài màn hình.",
     "scopePaths": []
+  },
+  {
+    "id": "ak-troubleshooting-2-phase-candidate-selection-for-host-recommendations",
+    "title": "2-Phase Candidate Selection for Host Recommendations",
+    "filePath": "docs/agent-knowledge/troubleshooting/2-phase-candidate-selection-for-host-recommendations.md",
+    "category": "agent-knowledge/troubleshooting",
+    "searchKeys": [
+      "2",
+      "phase",
+      "candidate",
+      "selection",
+      "for",
+      "host",
+      "recommendations",
+      "backend",
+      "recommendation-engine",
+      "performance",
+      "boardgame-host",
+      "troubleshooting",
+      "learned-pattern"
+    ],
+    "description": "Khi số lượng bài đăng bàn chơi ghép kèo (Host Sessions) trong database tăng lên hàng nghìn bản ghi, việc quét toàn bộ database để chấm điểm và gợi ý sẽ gây nghẽ",
+    "scopePaths": []
   }
 ]
