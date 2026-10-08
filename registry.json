@@ -184,5 +184,23 @@
       "workspace/back-end/src/services/common/UploadService.ts",
       "workspace/back-end/src/controllers/media/MediaController.ts"
     ]
+  },
+  {
+    "id": "ak-troubleshooting-zero-inline-ternary-locale-string-switching",
+    "title": "Zero Inline Ternary Locale String Switching",
+    "filePath": "docs/agent-knowledge/troubleshooting/zero-inline-ternary-locale-string-switching.md",
+    "category": "agent-knowledge/troubleshooting",
+    "searchKeys": [
+      "zero",
+      "inline",
+      "ternary",
+      "locale",
+      "string",
+      "switching",
+      "troubleshooting",
+      "learned-pattern"
+    ],
+    "description": "AI agents extracting locale from useLocale() and writing inline ternary checks `locale === 'vi' ? 'Tiếng Việt' : 'English'` instead of registering translation k",
+    "scopePaths": []
   }
 ]
