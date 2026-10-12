@@ -202,5 +202,43 @@
     ],
     "description": "AI agents extracting locale from useLocale() and writing inline ternary checks `locale === 'vi' ? 'Tiếng Việt' : 'English'` instead of registering translation k",
     "scopePaths": []
+  },
+  {
+    "id": "ak-troubleshooting-khung-nh-gi-t-i-u-story-launch-tr-nh-b-y-confession-c-nh-n-v-bait-and-switch",
+    "title": "Khung đánh giá & Tối ưu Story Launch: Tránh bẫy Confession cá nhân và Bait-and-switch",
+    "filePath": "docs/agent-knowledge/troubleshooting/khung-nh-gi-t-i-u-story-launch-tr-nh-b-y-confession-c-nh-n-v-bait-and-switch.md",
+    "category": "agent-knowledge/troubleshooting",
+    "searchKeys": [
+      "khung",
+      "nh",
+      "gi",
+      "t",
+      "i",
+      "u",
+      "story",
+      "launch",
+      "tr",
+      "nh",
+      "b",
+      "y",
+      "confession",
+      "c",
+      "nh",
+      "n",
+      "v",
+      "bait",
+      "and",
+      "switch",
+      "marketing",
+      "launch",
+      "storytelling",
+      "carousel",
+      "viral",
+      "drama",
+      "troubleshooting",
+      "learned-pattern"
+    ],
+    "description": "Carousel launch story bị nhầm lẫn giữa một confession tình yêu cá nhân và câu chuyện ra mắt brand/community: cú chuyển đột ngột gây cảm giác 'bait-and-switch',",
+    "scopePaths": []
   }
 ]
