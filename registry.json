@@ -269,5 +269,25 @@
       "workspace/web/components/boardgame/collection/GameCollectionDetailModal.tsx",
       "docs/frontend/components/form-controls/select-dropdowns.md"
     ]
+  },
+  {
+    "id": "ak-ui-ux-public-profile-persona-vs-private-workspace-separation-pattern",
+    "title": "Public Profile Persona vs Private Workspace Separation Pattern",
+    "filePath": "docs/agent-knowledge/ui-ux/public-profile-persona-vs-private-workspace-separation-pattern.md",
+    "category": "agent-knowledge/ui-ux",
+    "searchKeys": [
+      "public",
+      "profile",
+      "persona",
+      "vs",
+      "private",
+      "workspace",
+      "separation",
+      "pattern",
+      "ui-ux",
+      "learned-pattern"
+    ],
+    "description": "Khi người dùng A truy cập trang cá nhân công khai của người dùng B (/social/members/[user_slug]), giao diện hiển thị các tab Bookmark/Saved và Lịch sử xem (Hist",
+    "scopePaths": []
   }
 ]
