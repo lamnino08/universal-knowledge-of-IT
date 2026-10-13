@@ -118,3 +118,10 @@ Tuân thủ nghiêm ngặt quy định dự án tại `AGENTS.md`:
 3. **Anti-pattern 3: Hiển thị Private Buttons ở chế độ View-Only**:
    - *Sai*: Người lạ thấy nút "Thêm vào tủ", "Xóa khỏi danh sách", "Đồng bộ BGG".
    - *Đúng*: Ẩn triệt để toàn bộ action buttons hoặc chuyển sang chế độ Bookmarking/Lưu về tủ của chính người xem.
+4. **Anti-pattern 4: Fallback to Authenticated User on Invalid/Non-existent Slug (Context Leakage)**:
+   - *Sai*: Khi client truyền `user_slug` nhưng không tìm thấy user (`targetUser = undefined`), controller lại fallback `targetUserId = c.req.user?.id`. Hậu quả: Người đang đăng nhập xem hồ sơ một slug sai/đã xóa sẽ nhìn thấy dữ liệu cá nhân của chính mình trên trang đó!
+   - *Đúng*: Nếu `user_slug` được truyền mà không tìm thấy user, trả về mảng rỗng `[]` ngay lập tức để UI render Empty State, tuyệt đối không fallback về `c.req.user?.id`. Chỉ fallback khi client hoàn toàn không truyền target identifier nào (tự truy vấn cho chính mình).
+5. **Anti-pattern 5: Trả về trường nhạy cảm trong User Profile**:
+   - *Sai*: Trả về raw object từ database chứa `password_hash`, `provider_user_id` hay token.
+   - *Đúng*: Luôn sanitize xóa `password_hash`, `provider_user_id` trong mọi profile controller (`getProfile`, `getProfileBySlug`, `getProfileByCode`). Các route polymorphic (`GET /like`) chỉ làm giàu metadata công khai của entity (`Movie`, `Boardgame`) qua `enrichLikedItem`, không gắn kèm dữ liệu tài khoản cá nhân.
+
