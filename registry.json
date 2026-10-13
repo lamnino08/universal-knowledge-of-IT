@@ -240,5 +240,34 @@
     ],
     "description": "Carousel launch story bị nhầm lẫn giữa một confession tình yêu cá nhân và câu chuyện ra mắt brand/community: cú chuyển đột ngột gây cảm giác 'bait-and-switch',",
     "scopePaths": []
+  },
+  {
+    "id": "ak-ui-ux-visualselect-component-usage-zero-forced-input-pattern",
+    "title": "VisualSelect Component Usage & Zero-Forced Input Pattern",
+    "filePath": "docs/agent-knowledge/ui-ux/visualselect-component-usage-zero-forced-input-pattern.md",
+    "category": "agent-knowledge/ui-ux",
+    "searchKeys": [
+      "visualselect",
+      "component",
+      "usage",
+      "zero",
+      "forced",
+      "input",
+      "pattern",
+      "visual-select",
+      "form-controls",
+      "contrast-fix",
+      "zero-forced-input",
+      "modal-form",
+      "ui-ux-convention",
+      "ui-ux",
+      "learned-pattern"
+    ],
+    "description": "Các nút chọn dạng lưới (Option Grid) trong Modal bị mất chữ do lỗi tương phản màu (white-on-white) và bị gán cứng giá trị mặc định khiến người dùng bị ép buộc c",
+    "scopePaths": [
+      "workspace/web/components/form/base-component/select/VisualSelect.tsx",
+      "workspace/web/components/boardgame/collection/GameCollectionDetailModal.tsx",
+      "docs/frontend/components/form-controls/select-dropdowns.md"
+    ]
   }
 ]
