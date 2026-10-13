@@ -284,10 +284,23 @@
       "workspace",
       "separation",
       "pattern",
+      "boardgame",
+      "movie",
+      "cinema",
+      "liked",
+      "collection",
+      "isOwner",
+      "optionalAuth",
       "ui-ux",
       "learned-pattern"
     ],
-    "description": "Khi người dùng A truy cập trang cá nhân công khai của người dùng B (/social/members/[user_slug]), giao diện hiển thị các tab Bookmark/Saved và Lịch sử xem (Hist",
-    "scopePaths": []
+    "description": "Phân tách rạch ròi giữa Public Persona (Hồ sơ thị hiếu công khai như Tủ game, Phim yêu thích) và Private Workspace (Tiện ích cá nhân như Đã lưu, Lịch sử) khi xem trang thành viên trên toàn bộ các Spoke (Boardgame, Cinema/Movie).",
+    "scopePaths": [
+      "workspace/web/app/(main)/social/members/[user_slug]/",
+      "workspace/web/app/(main)/social/members/[user_slug]/_components/tabs/CinemaProfileTab.tsx",
+      "workspace/web/app/(main)/social/members/[user_slug]/liked/_components/MovieLikedList.tsx",
+      "workspace/back-end/src/controllers/LikeController.ts",
+      "workspace/back-end/src/routes/v1/common/like/getLikedItemsRoute.ts"
+    ]
   }
 ]
