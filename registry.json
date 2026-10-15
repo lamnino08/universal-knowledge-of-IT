@@ -302,5 +302,39 @@
       "workspace/back-end/src/controllers/LikeController.ts",
       "workspace/back-end/src/routes/v1/common/like/getLikedItemsRoute.ts"
     ]
+  },
+  {
+    "id": "ak-troubleshooting-fix-404-logging-as-500-in-observability-and-seed-bgg-label-taxonomy",
+    "title": "Fix 404 Logging as 500 in Observability and Seed BGG Label Taxonomy",
+    "filePath": "docs/agent-knowledge/troubleshooting/fix-404-logging-as-500-in-observability-and-seed-bgg-label-taxonomy.md",
+    "category": "agent-knowledge/troubleshooting",
+    "searchKeys": [
+      "fix",
+      "404",
+      "logging",
+      "as",
+      "500",
+      "in",
+      "observability",
+      "and",
+      "seed",
+      "bgg",
+      "label",
+      "taxonomy",
+      "observability",
+      "api-logger",
+      "base-app-error",
+      "bgg-data",
+      "boardgame-labels",
+      "troubleshooting",
+      "learned-pattern"
+    ],
+    "description": "Observability logged 404 NotFoundError as HTTP 500 BaseAppError, and BGG labels from category_groups.json/mechanic_groups.json were missing in production databa",
+    "scopePaths": [
+      "workspace/back-end/src/errors/base/baseAppError.ts",
+      "workspace/back-end/src/libs/hono/OnError.ts",
+      "workspace/back-end/src/middlewares/apiLogger.ts",
+      "workspace/back-end/database/seed-bgg-labels.ts"
+    ]
   }
 ]
