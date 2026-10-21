@@ -336,5 +336,33 @@
       "workspace/back-end/src/middlewares/apiLogger.ts",
       "workspace/back-end/database/seed-bgg-labels.ts"
     ]
+  },
+  {
+    "id": "ak-patterns-t-ch-h-p-tab-nh-gi-t-n-nhi-m-user-profile-evaluations-list-tab",
+    "title": "Tích hợp Tab Đánh Giá Tín Nhiệm User Profile (Evaluations List Tab)",
+    "filePath": "docs/agent-knowledge/patterns/t-ch-h-p-tab-nh-gi-t-n-nhi-m-user-profile-evaluations-list-tab.md",
+    "category": "agent-knowledge/patterns",
+    "searchKeys": [
+      "t",
+      "ch",
+      "h",
+      "p",
+      "tab",
+      "nh",
+      "gi",
+      "t",
+      "n",
+      "nhi",
+      "m",
+      "user",
+      "profile",
+      "evaluations",
+      "list",
+      "tab",
+      "patterns",
+      "learned-pattern"
+    ],
+    "description": "Đồng bộ hiển thị đánh giá uy tín user profile trên cả 2 view (Owner và Visitor), tuân thủ nguyên tắc không inline ternary, pure text i18n và luồng API phân tran",
+    "scopePaths": []
   }
 ]
